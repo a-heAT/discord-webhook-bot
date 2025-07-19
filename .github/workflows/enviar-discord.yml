@@ -1,12 +1,27 @@
-curl -H "Content-Type: application/json" \
-     -X POST \
-     -d '{
-       "username": "Oficial del Servidor",
-       "avatar_url": "https://i.imgur.com/0TeacfY.png",
-       "embeds": [{
-         "title": "Normas del Servidor",
-         "description": "Lee todas las normas en https://tu-link.com",
-         "color": 3447003
-       }]
-     }' \
+name: Enviar Normas a Discord
+
+on:
+  workflow_dispatch:  # Permite ejecutar manualmente la acción
+
+jobs:
+  post-to-discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Enviar mensaje embed al webhook
+        run: |
+          curl -H "Content-Type: application/json" \
+               -X POST \
+               -d '{
+                 "username": "Oficial del Servidor",
+                 "avatar_url": "https://i.imgur.com/0TeacfY.png",
+                 "embeds": [{
+                   "title": "📜 Normas del Servidor - Altamira RP",
+                   "description": "Por favor, respeta todas las reglas para mantener un ambiente sano y divertido.\n\n1. Respeta a todos los jugadores y staff.\n2. No usar cheats o exploits.\n3. No hacer RDM ni VDM.\n4. Uso obligatorio del micrófono en roles importantes.\n5. No cortar rol sin justificación.\n\nPara más detalles, visita: https://tu-link-a-las-normas.com",
+                   "color": 3447003,
+                   "footer": {
+                     "text": "Altamira RP - Oficial del Servidor"
+                   },
+                   "timestamp": "'"$(date -u +"%Y-%m-%dT%H:%M:%SZ")"'"
+                 }]
+               }' \
                https://discord.com/api/webhooks/1396167504660922469/QkX0KgggptlpxLNSaEx3VorzE7tC4jgC5ZIFO5eN2zLCulRd2cN0YWUTKDbDmygVbEg-
