@@ -1,7 +1,7 @@
 name: Enviar Normas a Discord
 
 on:
-  workflow_dispatch:  # Permite ejecutar manualmente la acción
+  workflow_dispatch:
 
 jobs:
   post-to-discord:
@@ -20,6 +20,9 @@ jobs:
                    "color": 5040717,
                    "footer": {
                      "text": "Altamira Roleplay - Derechos reservados"
+                   },
+                   "image": {
+                     "url": "https://link-a-tu-imagen-de-libro.png"
                    },
                    "timestamp": "'"$(date -u +"%Y-%m-%dT%H:%M:%SZ")"'"
                  }]
