@@ -22,7 +22,7 @@ jobs:
                      "text": "Altamira Roleplay - Derechos reservados"
                    },
                    "image": {
-                     "url": "https://i.ibb.co/RdTKCDZ/logoaltamira.png"
+                     "url": "https://i.ibb.co/XxjMtNLp/embed.png"
                    },
                    "timestamp": "'"$(date -u +"%Y-%m-%dT%H:%M:%SZ")"'"
                  }]
