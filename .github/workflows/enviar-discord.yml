@@ -1,7 +1,7 @@
 name: Enviar Normas a Discord
 
 on:
-  workflow_dispatch:  # Permite ejecutar la acción manualmente
+  workflow_dispatch:
 
 jobs:
   post-to-discord:
@@ -14,6 +14,6 @@ jobs:
                -d '{
                  "username": "Oficial del Servidor",
                  "avatar_url": "https://i.imgur.com/0TeacfY.png",
-                 "content": "**📜 Normas del Servidor - Altamira RP**\n1. Respeta a todos\n2. No VDM / RDM\n3. Usa micrófono\n4. No exploits\n5. Sigue las reglas del staff"
+                 "content": "**📜 Normas del Servidor - Altamira RP**\nPara leer las normas completas, visita: https://tu-link-a-las-normas.com"
                }' \
                https://discord.com/api/webhooks/1396167504660922469/QkX0KgggptlpxLNSaEx3VorzE7tC4jgC5ZIFO5eN2zLCulRd2cN0YWUTKDbDmygVbEg-
