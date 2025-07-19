@@ -12,14 +12,14 @@ jobs:
           curl -H "Content-Type: application/json" \
                -X POST \
                -d '{
-                 "username": "Oficial del Servidor",
-                 "avatar_url": "https://i.imgur.com/0TeacfY.png",
+                 "username": "Altamira Roleplay",
+                 "avatar_url": "https://i.ibb.co/ycvRcx7K/logo.png",
                  "embeds": [{
-                   "title": "📜 Normas del Servidor - Altamira RP",
-                   "description": "Por favor, respeta todas las reglas para mantener un ambiente sano y divertido.\n\n1. Respeta a todos los jugadores y staff.\n2. No usar cheats o exploits.\n3. No hacer RDM ni VDM.\n4. Uso obligatorio del micrófono en roles importantes.\n5. No cortar rol sin justificación.\n\nPara más detalles, visita: https://tu-link-a-las-normas.com",
-                   "color": 3447003,
+                   "title": "📜 Normativas Altamira Roleplay",
+                   "description": "Por favor, respeta todas las reglas para mantener un ambiente sano y divertido.\n\n1. Respeta a todos los jugadores y staff.\n2. No usar cheats o exploits.\n3. No hacer RDM ni VDM.\n4. Uso obligatorio del micrófono en roles importantes.\n5. No cortar rol sin justificación.\n\nPara más detalles, visita: https://altamiras-organization.gitbook.io/altamira-roleplay",
+                   "color": 4d3d2d,
                    "footer": {
-                     "text": "Altamira RP - Oficial del Servidor"
+                     "text": "Altamira Roleplay - Derechos reservados"
                    },
                    "timestamp": "'"$(date -u +"%Y-%m-%dT%H:%M:%SZ")"'"
                  }]
