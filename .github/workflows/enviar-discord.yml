@@ -1,0 +1,19 @@
+name: Enviar Normas a Discord
+
+on:
+  workflow_dispatch:  # Permite ejecutar la acción manualmente
+
+jobs:
+  post-to-discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Enviar mensaje al webhook
+        run: |
+          curl -H "Content-Type: application/json" \
+               -X POST \
+               -d '{
+                 "username": "Oficial del Servidor",
+                 "avatar_url": "https://i.imgur.com/0TeacfY.png",
+                 "content": "**📜 Normas del Servidor - Altamira RP**\n1. Respeta a todos\n2. No VDM / RDM\n3. Usa micrófono\n4. No exploits\n5. Sigue las reglas del staff"
+               }' \
+               https://discord.com/api/webhooks/TU_ID/TU_TOKEN
