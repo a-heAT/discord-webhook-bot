@@ -16,8 +16,8 @@ jobs:
                  "avatar_url": "https://i.ibb.co/ycvRcx7K/logo.png",
                  "embeds": [{
                    "title": "📜 Normativas Altamira Roleplay",
-                   "description": "**__Normativa General__**\nhttps://altamiras-organization.gitbook.io/altamira-roleplay\n\nReglas del discord\n1. No esta permitido la invitacion de otros servidores.\n2. No esta permitido el spam de canales de streaming o videos, así como tampoco de ventas o publicidades sin antes consultar.\n3. No esta permitido el contenido +18.\n4. Uso obligatorio del micrófono en roles importantes.\n5. Debes respetar la tematica de cada canal.\n6. Extricamente prohibido las faltas de respeto.",
-                   "color": 5040717,
+                   "description": "**__Normativa General__**\nhttps://altamiras-organization.gitbook.io/altamira-roleplay\n\n**__Reglas del discord__**\n1. No esta permitido la invitacion de otros servidores.\n2. No esta permitido el spam de canales de streaming o videos, así como tampoco de ventas o publicidades sin antes consultar.\n3. No esta permitido el contenido +18.\n4. Uso obligatorio del micrófono en roles importantes.\n5. Debes respetar la tematica de cada canal.\n6. Extricamente prohibido las faltas de respeto.",
+                   "color": 5063213,
                    "footer": {
                      "text": "Altamira Roleplay - Derechos reservados"
                    },
@@ -27,4 +27,4 @@ jobs:
                    "timestamp": "'"$(date -u +"%Y-%m-%dT%H:%M:%SZ")"'"
                  }]
                }' \
-               https://discord.com/api/webhooks/1396167504660922469/QkX0KgggptlpxLNSaEx3VorzE7tC4jgC5ZIFO5eN2zLCulRd2cN0YWUTKDbDmygVbEg-
+               https://discord.com/api/webhooks/1396165577453735936/4Vc69rWlZhaXm2bDKPqFTb2V5XHOyDLNMP7ow7XXpyd1-sFqvr1ZPUU6VrVTc1oq5hdj
