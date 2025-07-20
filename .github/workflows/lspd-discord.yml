@@ -16,7 +16,7 @@ jobs:
                  "avatar_url": "https://i.ibb.co/ycvRcx7K/logo.png",
                  "embeds": [{
                    "title": "📘 Reglamento LSPD Publico",
-                   "description": "**__Normativa Publica__** <:lspd:1396355736971382855>\n\nhttps://fernaomgs-private-organization.gitbook.io/reglamento-publico-del-lspd/",
+                   "description": "**__Normativa Publica__** <:lspd:1389339286045982852>\n\nhttps://fernaomgs-private-organization.gitbook.io/reglamento-publico-del-lspd/",
                    "color": 329527,
                    "footer": {
                      "text": "Altamira Roleplay - Derechos reservados"
@@ -27,4 +27,4 @@ jobs:
                    "timestamp": "'"$(date -u +"%Y-%m-%dT%H:%M:%SZ")"'"
                  }]
                }' \
-               https://discord.com/api/webhooks/1396167504660922469/QkX0KgggptlpxLNSaEx3VorzE7tC4jgC5ZIFO5eN2zLCulRd2cN0YWUTKDbDmygVbEg-
+               https://discord.com/api/webhooks/1396348910150221854/d5MMaVGemBxbEB8hsHn31pX2N2a_shepGT4T7wSwYqZl9G6SmBi5qwBAfsHeo8A6_qg0
