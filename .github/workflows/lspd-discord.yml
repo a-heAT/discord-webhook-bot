@@ -14,10 +14,6 @@ jobs:
                -d '{
                  "username": "Altamira Roleplay",
                  "avatar_url": "https://i.ibb.co/ycvRcx7K/logo.png",
-                 "content": "<@&1396359247205236816> 📢 ¡Consulta el reglamento actualizado del LSPD!",
-                 "allowed_mentions": {
-                   "roles": ["1396359247205236816"]
-                 },
                  "embeds": [{
                    "title": "📘 Reglamento LSPD Público",
                    "description": "**__Normativa Pública__** <:lspd:1389339286045982852>\n\nhttps://fernaomgs-private-organization.gitbook.io/reglamento-publico-del-lspd/",
