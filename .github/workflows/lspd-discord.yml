@@ -1,4 +1,4 @@
-name: Enviar Normas a Discord
+name: Reglamento LSPD Publico
 
 on:
   workflow_dispatch:
