@@ -14,7 +14,7 @@ jobs:
                -d '{
                  "username": "Altamira Roleplay",
                  "avatar_url": "https://i.ibb.co/ycvRcx7K/logo.png",
-                 "content": "<@1396359247205236816> 📢 ¡Testing?!",
+                 "content": "<@&1396359247205236816> 📢 ¡Consulta el reglamento actualizado del LSPD!",
                  "allowed_mentions": {
                    "roles": ["1396359247205236816"]
                  },
