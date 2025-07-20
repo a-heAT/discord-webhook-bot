@@ -15,8 +15,8 @@ jobs:
                  "username": "Altamira Roleplay",
                  "avatar_url": "https://i.ibb.co/ycvRcx7K/logo.png",
                  "embeds": [{
-                   "title": "📘 Reglamento LSPD Publico",
-                   "description": "<:lspd:1396355736971382855> **__Normativa Publica__**\n\nhttps://fernaomgs-private-organization.gitbook.io/reglamento-publico-del-lspd/",
+                   "title": "<:lspd:1396355736971382855> Reglamento LSPD Publico",
+                   "description": "**__Normativa Publica__**\n\nhttps://fernaomgs-private-organization.gitbook.io/reglamento-publico-del-lspd/",
                    "color": 329527,
                    "footer": {
                      "text": "Altamira Roleplay - Derechos reservados"
